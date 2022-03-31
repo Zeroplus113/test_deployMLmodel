@@ -62,14 +62,14 @@
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                    <a href="index.php" class="nav-link link-dark" aria-current="page">
+                    <a href="#" class="nav-link link-dark" aria-current="page">
                         <i class="bi bi-house" style="font-size: 16px; margin-right: 8px; font-family: Kanit;"></i>
                         หน้าแรก
                     </a>
                 </li>
 
                 <li>
-                    <a href="period.php" class="nav-link link-dark"">
+                    <a href="#" class="nav-link link-dark"">
                         <i class="bi bi-calendar3" style="font-size: 16px; margin-right: 8px;"></i>
                         รอบการปลูก
                     </a>
@@ -86,21 +86,15 @@
 
                     <div class="collapse" id="dailycare-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 " style="margin-left: 10%;">
-                            <li><a href="dailycare/water.php" class="link-dark rounded">การให้น้ำ</a></li>
-                            <li><a href="dailycare/fert.php" class="link-dark rounded">การให้ปุ๋ย</a></li>
-                            <li><a href="dailycare/bio.php" class="link-dark rounded">พ่นชีวภัณฑ์</a></li>
-                            <li><a href="dailycare/pest.php" class="link-dark rounded">พบปัญหา</a></li>
+                            <li><a href="#" class="link-dark rounded">การให้น้ำ</a></li>
+                            <li><a href="#" class="link-dark rounded">การให้ปุ๋ย</a></li>
+                            <li><a href="#" class="link-dark rounded">พ่นชีวภัณฑ์</a></li>
+                            <li><a href="#" class="link-dark rounded">พบปัญหา</a></li>
                         </ul>
                     </div>
 
                 </li>
 
-                <li>
-                    <a href="#" class="nav-link link-dark">
-                        <i class="bi bi-cloud-moon-fill" style="font-size: 16px; margin-right: 8px;"></i>
-                        สภาพอากาศ
-                    </a>
-                </li>
 
                 <li>
                     <a href="#" class="nav-link active">
@@ -154,7 +148,7 @@
                             <h1 class="fw-light">ระบบสนับสนุนการตัดสินใจ</h1>
                             <p class="lead text-muted">ระบบสนับสนุนการตัดสินใจดูแลเมลอน</p>
                             {% if my_pred %}
-                            <h2>{{ my_pred }}</h2>
+                            <h2 style="color: green;">{{ my_pred }}</h2>
                             {% endif %}
                         </div>
                     </div>
