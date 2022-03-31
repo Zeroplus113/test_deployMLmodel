@@ -36,6 +36,9 @@
             -moz-user-select: none;
             user-select: none;
         }
+        .result{
+            color: green;
+        }
 
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
@@ -148,7 +151,7 @@
                             <h1 class="fw-light">ระบบสนับสนุนการตัดสินใจ</h1>
                             <p class="lead text-muted">ระบบสนับสนุนการตัดสินใจดูแลเมลอน</p>
                             {% if my_pred %}
-                            <h2 style="color: green;">{{ my_pred }}</h2>
+                            <h2 class="result">{{ my_pred }}</h2>
                             {% endif %}
                         </div>
                     </div>
